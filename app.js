@@ -7,7 +7,7 @@ var booksRouter = require('./routes/books');
 const { sequelize } = require('./models');
 var app = express();
 
-// Synchronizing the model with the database, and connecting the app to the database.
+// Synchronizing the model with the database, and connecting the app to the database. t
 (async()=>{
   await sequelize.sync();
  try {
